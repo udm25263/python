@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: udm25263
+  description: Developer team or owner group
+spec:
+  type: team
+  profile:
+    displayName: UDM 25263 Team
+    email: udm25263@example.com
+  children: []

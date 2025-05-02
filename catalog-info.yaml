@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestDoc1
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: other
+  owner: udm25263
+  lifecycle: experimental
