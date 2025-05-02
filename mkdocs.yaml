@@ -4,5 +4,16 @@ nav:
   - Home: index.md
   - Python_sample: python_sample.md
   - Calculator: calculator.md
+theme:
+  name: material
+
 plugins:
-  - techdocs-core
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
