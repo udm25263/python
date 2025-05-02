@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: python
   annotations:
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: dir:.
   description: Python docs with mkdocstrings
 spec:
   type: documentation
