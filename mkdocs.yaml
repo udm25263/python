@@ -1,0 +1,8 @@
+site_name: my doc
+
+nav:
+  - Home: index.md
+  - Python_sample: python_sample.md
+  - Calculator: calculator.md
+plugins:
+  - mkdocstrings
