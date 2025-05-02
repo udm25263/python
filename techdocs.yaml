@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: python
+  annotations:
+    backstage.io/techdocs-ref: value
   description: Python docs with mkdocstrings
 spec:
   type: documentation
